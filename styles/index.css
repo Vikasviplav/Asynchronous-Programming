@@ -1,0 +1,54 @@
+body {
+    margin: 0.5%;
+    background-color: lavender;
+}
+#navbar{
+    background-color: white;
+    font-size: 25px;
+     display: flex;
+     gap: 1050px;
+     padding:2%;
+     
+    
+ }
+ #navbar>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+ }
+
+#navbar>div {
+    width: 30px;
+    color: blue;
+    margin-right: 40px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    /* colo */
+    margin: 20px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 10px 10px 100px;
+}
+#movies>div>image{
+    width:400px;
+    height: 350px;
+}
